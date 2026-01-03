@@ -1,0 +1,6 @@
+data.dtypes #cek isi dataset
+data.shape #cek jumlah dataset
+data.isnull().sum() #cek apakah ada data kosong
+data.duplicated().sum() #cek apakah ada data duplikat
+data = data.drop_duplicates()
+data.describe()
